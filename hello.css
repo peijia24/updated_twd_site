@@ -27,16 +27,6 @@ body {
 
 /* header nav section*/
 
-/*.gif-name img {
-  margin: 0 auto;
-  padding-left: 40px;
-  padding-bottom: 20px;
-  position: relative;
-  display: block;
-  z-index: -2;
-}
-*/
-
 .header-section {
   display: flex;
   align-content: space-between;
@@ -58,19 +48,19 @@ margin-left: 15%;
 }
 
 
-.header-section h1 {
+/*.header-section h1 {
   margin-left: 9%;
   margin-top: 2%;
   font-size: 45px;
 
-}
+}*/
+
 
 .header-section a {
   display: flex;
   letter-spacing: 2px;
   text-align: center;
   color: black;
-  text-decoration: none;
   justify-content: space-around;
   text-transform: uppercase;
  }
@@ -91,7 +81,7 @@ margin-left: 15%;
 }
 
 .html-stuff a, .javascript a, .responsive a, .php a, .wordpress a, .external a {
-  background-image: linear-gradient(to right, rgba(138,173,199,0) 50%, #8AADC7 50%);
+  background-image: linear-gradient(to right, rgba(72,209,204,0) 50%, #AFEEEE 50%);
   background-position: -0% 0;
   background-size: 202% auto;
   color: #222;
@@ -109,7 +99,6 @@ margin-left: 15%;
 .html-stuff a:hover, .javascript a:hover, .responsive a:hover, .php a:hover, .wordpress a:hover, .external a:hover {
   background-position: -99.99% 0;
   width:100%;
-/*  border: 1px black solid;*/
 }
 
 .html-stuff a, .php a {
